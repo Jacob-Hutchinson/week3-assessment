@@ -1,0 +1,89 @@
+body {
+  background: #EEF0EB;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid #284B63;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: #284B63;
+}
+
+a:visited {
+	color: #284B63;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 200px;
+}
+
+.interests {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
+
+}
+
+.skills {
+	font-size: large;
+	justify-content: flex-end;
+	
+}
+
+.skillsinterests {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	top: 200px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+
+#color {
+	background-color: #4BB3FD;
+	height: 30px;
+	width: 200px;
+
+}
+#place {
+	background-color: yellow;
+	height: 30px;
+	width: 200px;
+}
+#ritual {
+	background-color: yellow;
+	height: 30px;
+	width: 200px;
+}
+h1 {
+	color: #4BB3FD;
+}
+h3 {
+	color: #4BB3FD;
+}
